@@ -14,10 +14,11 @@ def operations(h, w):
       s - the sum of A and B.
     """
     #Your code here
+    A = np.random.random([h,w])
+    B = np.random.random([h,w])
+    s = A + B
+    return A, B, s
 
-    
-    return result
-
-result = randomization(2)
+result = operations(2,3)
 print(result)
 
