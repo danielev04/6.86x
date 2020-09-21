@@ -15,6 +15,8 @@ def norm(A, B):
     s = np.linalg.norm(A+B)
     return s
 
-result = norm(2,3)
+x = np.array([2,3,4])
+y = np.array([6,7,8])
+result = norm(x,y)
 print(result)
 
